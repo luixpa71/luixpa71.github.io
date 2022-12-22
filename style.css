@@ -388,5 +388,18 @@ body {
     align-items: center;
     align-content: center;
 
-
 }
+
+@media (max-width: 700px) {
+    #cajauno {
+        display: none;
+    }
+
+    #cajados {
+        display: none;
+    }
+
+    #cajadieciseis {
+        display: none;
+
+    }
