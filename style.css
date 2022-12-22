@@ -1,0 +1,392 @@
+html {
+    height: 100%;
+}
+
+@keyframes infierno {
+    from {
+        transform: translateY(130%);
+    }
+
+    to {
+        transform: translateX(0%);
+
+    }
+}
+
+.LuixPa {
+    text-align: center;
+    font-family: 'Martian Mono', sans-serif;
+    font-size: 14px;
+    margin-top: 10em;
+}
+/*
+#supizdo {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+#supdrcho {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+
+#inferiorizdo {
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+}
+
+#inferiordrcho {
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
+}
+*/
+
+body {
+    margin: 0;
+    height: 100%;
+	width: auto;
+
+}
+
+.barras {
+    height: 100%;
+    width: auto;
+	margin: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.codigo {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 8em;
+}
+
+
+#cajauno {
+    height: 400px;
+    width: 30px;
+    background-color: black;
+    margin-right: 0.8em;
+    align-items: center;
+    align-content: center;
+    animation-name: infierno;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-in;
+}
+
+#cajados {
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    margin-right: 0.8em;
+    align-items: center;
+    align-content: center;
+    animation-name: infierno;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+#especialuno {
+    background-color: black;
+    height: 400px;
+    width: 30px;
+    background-color: black;
+    margin-right: 0.8em;
+    align-items: center;
+    align-content: center;
+    animation-name: infierno;
+    animation-duration: 2.2s;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+    transition: width 2.9s;
+}
+
+#especialunodentro {
+    background-color: transparent;
+    height: 100%;
+    opacity: 0;
+    text-align: right;
+}
+
+#especialunodentro button {
+    margin: 5%;
+    background-color: dimgrey;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+#especialuno:hover {
+    background-image: url(IMG/halcon-avenida.jpg);
+    background-size: cover;
+    width: 500px;
+}
+
+#especialuno:hover #especialunodentro {
+    opacity: 1;
+
+}
+
+
+#cajacuatro {
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    margin-right: 0.8em;
+    align-items: center;
+    align-content: center;
+    animation-name: infierno;
+    animation-duration: 2.2s;
+    animation-timing-function: ease-in;
+}
+
+#cajacinco {
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    margin-right: 0.8em;
+    animation-name: infierno;
+    animation-duration: 2.3s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+}
+
+#cajaseis {
+    height: 400px;
+    width: 20px;
+    background-color: black;
+    margin-right: 0.8em;
+    animation-name: infierno;
+    animation-duration: 2.4s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+}
+
+#cajasiete {
+    height: 400px;
+    width: 50px;
+    background-color: black;
+    margin-right: 0.8em;
+    animation-name: infierno;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+
+}
+
+#cajaocho {
+    height: 400px;
+    width: 20px;
+    background-color: black;
+    margin-right: 0.8em;
+    animation-name: infierno;
+    animation-duration: 2.6s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+
+}
+
+#cajanueve {
+    height: 400px;
+    width: 5px;
+    background-color: black;
+    margin-right: 0.8em;
+    animation-name: infierno;
+    animation-duration: 2.7s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+}
+
+#especialdos {
+    background-color: black;
+    height: 400px;
+    width: 30px;
+    background-color: black;
+    margin-right: 0.8em;
+    align-items: center;
+    align-content: center;
+    animation-name: infierno;
+    animation-duration: 2.9s;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+    transition: width 2.9s;
+}
+
+#especialdosdentro {
+    background-color: transparent;
+    height: 100%;
+    opacity: 0;
+    text-align: right;
+}
+
+#especialdosdentro button {
+    margin: 5%;
+    background-color:aquamarine;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    
+}
+
+
+#especialdos:hover {
+    background-image: url(IMG/mockup-misstinta.jpg);
+    background-size: cover;
+    width: 500px;
+}
+
+#especialdos:hover #especialdosdentro {
+    opacity: 1;
+
+}
+
+#cajaonce {
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    margin-right: black;
+    animation-name: infierno;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+
+}
+
+#cajadoce {
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    margin-right: 0.8em;
+    animation-name: infierno;
+    animation-duration: 3.1s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+
+}
+
+#cajatrece {
+    height: 400px;
+    width: 20px;
+    background-color: black;
+    margin-right: 0.8em;
+    animation-name: infierno;
+    animation-duration: 3.2s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+}
+
+#cajacatorce {
+    height: 400px;
+    width: 30px;
+    background-color: black;
+    margin-right: 0.8em;
+    animation-name: infierno;
+    animation-duration: 3.3s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+
+}
+
+#cajaquince {
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    margin-right: 0.8em;
+    animation-name: infierno;
+    animation-duration: 3.4s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+
+}
+
+#especialtres {
+    background-color: black;
+    height: 400px;
+    width: 30px;
+    background-color: black;
+    margin-right: 0.8em;
+    align-items: center;
+    align-content: center;
+    animation-name: infierno;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+    transition: width 2.9s;
+}
+
+#especialtresdentro {
+    background-color: transparent;
+    height: 100%;
+    opacity: 0;
+    text-align: right;
+}
+
+#especialtresdentro button {
+    margin: 5%;
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+#especialtres:hover {
+    background-image: url(IMG/Frame%202.jpg);
+    background-size: cover;
+    width: 500px;
+}
+
+#especialtres:hover #especialtresdentro {
+    opacity: 1;
+
+}
+
+
+#cajadiecisiete {
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    margin-right: 16em;
+    animation-name: infierno;
+    animation-duration: 3.6s;
+    animation-timing-function: ease-in;
+    align-items: center;
+    align-content: center;
+
+
+}
